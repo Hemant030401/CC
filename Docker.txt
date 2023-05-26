@@ -1,0 +1,30 @@
+docker --version
+
+docker images
+
+docker ps             #Checking container for images
+
+docker pull openjdk   #docker hub-->search: openjdk   pull the images
+
+docker images
+
+docker run --name JAVA -it -d openjdk      #d:to run in background  openjdk:image name     To run the above image
+
+docker ps
+
+docker exec -it JAVA jshell          #it:iterative  jshell:command   To open java container
+
+
+System.out.println("Hello World");      
+
+
+
+
+docker ps
+
+docker stop 89352dd1d75c
+
+docker rm 89352dd1d75c
+
+
+
