@@ -1,0 +1,6 @@
+runtime : python
+threadsafe : false
+
+handlers :
+- url: /
+  script: main.app
